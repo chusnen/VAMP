@@ -1,0 +1,13 @@
+{
+  "name": "frasesparafollar",
+  "env_run_lists": {},
+  "default_attributes": {},
+  "override_attributes": {},
+  "json_class": "Chef::Role",
+  "run_list": [
+    "recipe[frasesparafollar]",
+    "recipe[frasesparafollar::apache]"
+  ],
+  "description": "frasesparafollar.",
+  "chef_type": "role"
+}

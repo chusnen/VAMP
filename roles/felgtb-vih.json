@@ -1,0 +1,13 @@
+{
+  "name": "felgtb-vih",
+  "env_run_lists": {},
+  "default_attributes": {},
+  "override_attributes": {},
+  "json_class": "Chef::Role",
+  "run_list": [
+    "recipe[felgtb-vih]",
+    "recipe[felgtb-vih::apache]"
+  ],
+  "description": "felgtb-vih.",
+  "chef_type": "role"
+}

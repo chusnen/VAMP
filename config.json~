@@ -30,8 +30,8 @@
   },
   "git": {
     "user": {
-      "name": "Miguel Angel",
-      "email": "miguel.carogar@gmail.com"
+      "name": "Example User",
+      "email": "username@example.com"
     },
     "core": {
       "editor": "vi"

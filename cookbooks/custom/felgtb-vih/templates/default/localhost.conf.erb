@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+  DocumentRoot /var/www/felgtb-vih/httpdocs/
+  ServerName localhost
+  RewriteEngine On
+  ErrorLog /var/log/apache2/error-felgtb-vih.log
+  LogLevel warn
+  CustomLog /var/log/apache2/access-felgtb-vih.log combined
+  ServerSignature On
+</VirtualHost>

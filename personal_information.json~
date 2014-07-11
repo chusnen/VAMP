@@ -1,0 +1,14 @@
+{
+"git": {
+"user": {
+"name": "Miguel",
+"email": "miguel.carogar@gmail.com"
+},
+"core": {
+"editor": "vi"
+},
+"color": {
+"ui": true
+}
+}
+}
