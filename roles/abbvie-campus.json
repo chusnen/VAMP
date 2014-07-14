@@ -1,13 +1,13 @@
 {
-  "name": "aspgems-neurok",
+  "name": "abbvie-campus",
   "env_run_lists": {},
   "default_attributes": {},
   "override_attributes": {},
   "json_class": "Chef::Role",
   "run_list": [
-    "recipe[aspgems-neurok]",
-    "recipe[aspgems-neurok::apache]"
+    "recipe[abbvie-campus]",
+    "recipe[abbvie-campus::apache]"
   ],
-  "description": "Web neurok.",
+  "description": "abbvie-campus.",
   "chef_type": "role"
 }

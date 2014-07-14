@@ -41,6 +41,9 @@
     }
   },
   "custom_roles": [
-  "abbvie-campus"
+  //  "aspgems-web"
+  //  "aspgems-neurok"
+    "dontknow-vox"
+    
   ]
 }

@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+  DocumentRoot /var/www/abbvie-campus/httpdocs/
+  ServerName localhost
+  RewriteEngine On
+  ErrorLog /var/log/apache2/error-abbvie-campus.log
+  LogLevel warn
+  CustomLog /var/log/apache2/access-abbvie-campus.log combined
+  ServerSignature On
+</VirtualHost>
