@@ -1,13 +1,13 @@
 {
-  "name": "aspgems-web",
+  "name": "grinbuzz-blog",
   "env_run_lists": {},
   "default_attributes": {},
   "override_attributes": {},
   "json_class": "Chef::Role",
   "run_list": [
-    "recipe[aspgems-web]",
-    "recipe[aspgems-web::apache]"
+    "recipe[grinbuzz-blog]",
+    "recipe[grinbuzz-blog::apache]"
   ],
-  "description": "Web ASPgems.",
+  "description": "grinbuzz-blog.",
   "chef_type": "role"
 }

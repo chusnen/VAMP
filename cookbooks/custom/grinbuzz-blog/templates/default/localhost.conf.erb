@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+  DocumentRoot /var/www/grinbuzz-blog/httpdocs/
+  ServerName localhost
+  RewriteEngine On
+  ErrorLog /var/log/apache2/error-grinbuzz-blog.log
+  LogLevel warn
+  CustomLog /var/log/apache2/access-grinbuzz-blog.log combined
+  ServerSignature On
+</VirtualHost>
