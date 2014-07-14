@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+  DocumentRoot /var/www/ambarplus-web/httpdocs/
+  ServerName localhost
+  RewriteEngine On
+  ErrorLog /var/log/apache2/error-ambarplus-web.log
+  LogLevel warn
+  CustomLog /var/log/apache2/access-ambarplus-web.log combined
+  ServerSignature On
+</VirtualHost>
