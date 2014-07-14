@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+  DocumentRoot /var/www/frasesparafollar/httpdocs/
+  ServerName localhost
+  RewriteEngine On
+  ErrorLog /var/log/apache2/error-frasesparafollar.log
+  LogLevel warn
+  CustomLog /var/log/apache2/access-frasesparafollar.log combined
+  ServerSignature On
+</VirtualHost>

@@ -1,13 +1,13 @@
 {
-  "name": "aspgems-neurok",
+  "name": "frasespara",
   "env_run_lists": {},
   "default_attributes": {},
   "override_attributes": {},
   "json_class": "Chef::Role",
   "run_list": [
-    "recipe[aspgems-neurok]",
-    "recipe[aspgems-neurok::apache]"
+    "recipe[frasespara]",
+    "recipe[frasespara::apache]"
   ],
-  "description": "Web neurok.",
+  "description": "Web FrasesParaFollar",
   "chef_type": "role"
 }
