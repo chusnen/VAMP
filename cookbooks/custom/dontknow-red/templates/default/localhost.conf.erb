@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+  DocumentRoot /var/www/dontknow-red/docroot/
+  ServerName localhost
+  RewriteEngine On
+  ErrorLog /var/log/apache2/error-dontknow-red.log
+  LogLevel warn
+  CustomLog /var/log/apache2/access-dontknow-red.log combined
+  ServerSignature On
+</VirtualHost>

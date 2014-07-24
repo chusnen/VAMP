@@ -1,13 +1,13 @@
 {
-  "name": "dontknow-vox",
+  "name": "dontknow-red",
   "env_run_lists": {},
   "default_attributes": {},
   "override_attributes": {},
   "json_class": "Chef::Role",
   "run_list": [
-    "recipe[dontknow-vox]",
-    "recipe[dontknow-vox::apache]"
+    "recipe[dontknow-red]",
+    "recipe[dontknow-red::apache]"
   ],
-  "description": "Sistema de votaciones de VOX.",
+  "description": "Red social de dontknow.",
   "chef_type": "role"
 }
