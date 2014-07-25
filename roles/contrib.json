@@ -5,9 +5,9 @@
   "override_attributes": {},
   "json_class": "Chef::Role",
   "run_list": [
-    "recipe[aspgems-web]",
-    "recipe[aspgems-web::apache]"
+    "recipe[contrib]",
+    "recipe[contrib::apache]"
   ],
-  "description": "Web ASPgems.",
+  "description": "Role for contribution.",
   "chef_type": "role"
 }
