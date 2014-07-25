@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+  DocumentRoot /var/www/solusat-tienda/httpdocs/
+  ServerName localhost
+  RewriteEngine On
+  ErrorLog /var/log/apache2/error-solusat-tienda.log
+  LogLevel warn
+  CustomLog /var/log/apache2/access-solusat-tienda.log combined
+  ServerSignature On
+</VirtualHost>
