@@ -1,0 +1,7 @@
+execute "apt-get update" do
+action :run
+end
+
+package "tree" do
+    action :install
+  end
