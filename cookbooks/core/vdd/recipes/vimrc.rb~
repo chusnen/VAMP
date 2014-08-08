@@ -1,4 +1,0 @@
-execute "drush @none dl vimrc"do
-end
-
-
