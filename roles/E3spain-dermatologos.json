@@ -1,13 +1,13 @@
 {
-  "name": "dontknow-mocc",
+  "name": "E3spain-dermatologos",
   "env_run_lists": {},
   "default_attributes": {},
   "override_attributes": {},
   "json_class": "Chef::Role",
   "run_list": [
-    "recipe[dontknow-mocc]",
-    "recipe[dontknow-mocc::apache]"
+    "recipe[E3spain-dermatologos]",
+    "recipe[E3spain-dermatologos::apache]"
   ],
-  "description": "dontknow-mocc.",
+  "description": "E3spain-dermatologos.",
   "chef_type": "role"
 }
