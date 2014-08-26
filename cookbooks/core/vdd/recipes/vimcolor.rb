@@ -5,9 +5,9 @@ bash "modify_color_vim" do
   user "root"
   cwd "/usr/share/vim/vim73/colors/"
   code <<-EOH
-    git clone https://github.com/ryu-blacknd/vim-nucolors.git
-    mv /usr/share/vim/vim73/colors/vim-nucolors/colors/nucolors.vim /usr/share/vim/vim73/colors/nucolors.vim
-    rm -rf vim-nucolors	
+    git clone https://github.com/jcerrada/vim-conf.git
+    mv /usr/share/vim/vim73/colors/vim-conf/.vim/colors/nucolors.vim /usr/share/vim/vim73/colors/nucolors.vim
+    rm -rf vim-conf	
     echo "colorscheme nucolors
 set number
 augroup module 
@@ -19,6 +19,7 @@ autocmd BufRead,BufNewFile *.inc set filetype=php
 autocmd BufRead,BufNewFile *.profile set filetype=php
 autocmd BufRead,BufNewFile *.theme set filetype=php 
 augroup END
-set cursorline" >> /usr/share/vim/vimrc
+set cursorline
+set t_Co=256" >> /usr/share/vim/vimrc
   EOH
 end
