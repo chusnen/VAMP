@@ -1,13 +1,13 @@
 {
-  "name": "aspgems-web",
+  "name": "dontknow-asamblea",
   "env_run_lists": {},
   "default_attributes": {},
   "override_attributes": {},
   "json_class": "Chef::Role",
   "run_list": [
-    "recipe[aspgems-web]",
-    "recipe[aspgems-web::apache]"
+    "recipe[dontknow-asamblea]",
+    "recipe[dontknow-asamblea::apache]"
   ],
-  "description": "Web ASPgems.",
+  "description": "Web dontknow-asamblea.",
   "chef_type": "role"
 }

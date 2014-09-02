@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+  DocumentRoot /var/www/dontknow-asamblea/httpdocs/
+  ServerName localhost
+  RewriteEngine On
+  ErrorLog /var/log/apache2/error-dontknow-asamblea.log
+  LogLevel warn
+  CustomLog /var/log/apache2/access-dontknow-asamblea.log combined
+  ServerSignature On
+</VirtualHost>
