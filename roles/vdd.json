@@ -34,7 +34,8 @@
     "recipe[vdd::ruby-compass]",
     "recipe[vdd::resolv]",
     "recipe[vdd::vimcolor]",
-    "recipe[vdd::less]"	
+    "recipe[vdd::less]",
+    "recipe[vdd::lessc]"	
   ],
   "description": "VDD Apache, PHP, MySQL plus other tools configuration.",
   "chef_type": "role"
