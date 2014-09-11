@@ -1,13 +1,13 @@
 {
-  "name": "dontknow-mocc",
+  "name": "dontknow-mooc",
   "env_run_lists": {},
   "default_attributes": {},
   "override_attributes": {},
   "json_class": "Chef::Role",
   "run_list": [
-    "recipe[dontknow-mocc]",
-    "recipe[dontknow-mocc::apache]"
+    "recipe[dontknow-mooc]",
+    "recipe[dontknow-mooc::apache]"
   ],
-  "description": "dontknow-mocc.",
+  "description": "dontknow-mooc.",
   "chef_type": "role"
 }
