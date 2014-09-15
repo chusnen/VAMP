@@ -35,7 +35,8 @@
     "recipe[vdd::resolv]",
     "recipe[vdd::vimcolor]",
     "recipe[vdd::less]",
-    "recipe[vdd::lessc]"	
+    "recipe[vdd::lessc]",
+    "recipe[vdd::bundler]"	
   ],
   "description": "VDD Apache, PHP, MySQL plus other tools configuration.",
   "chef_type": "role"
