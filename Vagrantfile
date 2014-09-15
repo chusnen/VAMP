@@ -45,6 +45,13 @@ Vagrant.configure("2") do |config|
     # Add custom roles
     vdd_config["custom_roles"].each do |role|
       chef.add_role role
+
+
+ config.vm.provision :shell, :path => "install-rvm.sh",  :args => "stable"
+ config.vm.provision :shell, :path => "install-ruby.sh", :args => "1.9.3"
+ config.vm.provision :shell, :path => "install-ruby.sh", :args => "2.0.0 rails haml"
+
+
     end
   end
 
