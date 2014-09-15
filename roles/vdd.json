@@ -31,7 +31,8 @@
     "recipe[vdd::sass]",
     "recipe[vdd::newton]",
     "recipe[vdd::vim]",
-    "recipe[vdd::pareviewsh]"
+    "recipe[vdd::pareviewsh]",
+    "recipe[vdd::bundler]"
   ],
   "description": "VDD Apache, PHP, MySQL plus other tools configuration.",
   "chef_type": "role"
