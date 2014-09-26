@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
   
   # Networking
   config.vm.network :private_network, ip: vdd_config["ip"]
-
+  config.vm.network "forwarded_port", guest: 9000, host: 9009
   # Customize provider
   config.vm.provider :virtualbox do |vb|
     # RAM
@@ -26,6 +26,10 @@ Vagrant.configure("2") do |config|
       vdd_config["synced_folder"]["guest_path"],
       :nfs => vdd_config["synced_folder"]["use_nfs"]
   end
+
+  # ssh
+    # Set up SSH agent forwarding.
+    config.ssh.forward_agent = true
 
   # Customize provisioner
   config.vm.provision :chef_solo do |chef|
@@ -45,13 +49,6 @@ Vagrant.configure("2") do |config|
     # Add custom roles
     vdd_config["custom_roles"].each do |role|
       chef.add_role role
-
-
- config.vm.provision :shell, :path => "install-rvm.sh",  :args => "stable"
- config.vm.provision :shell, :path => "install-ruby.sh", :args => "1.9.3"
- config.vm.provision :shell, :path => "install-ruby.sh", :args => "2.0.0 rails haml"
-
-
     end
   end
 
